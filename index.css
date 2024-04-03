@@ -1,22 +1,58 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(231, 254, 255);
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 223, 223);
+    
+}
+
+.card {
+    
+    width: 810px;
+    margin: 50px auto;
+    border: 5px ridge darkred;
+    padding: 8px;
+    text-align: center;
+}
+
+.headline {
     text-align: center;
     color: darkslateblue;
-}
-ul {
-    list-style: square;
+    font-size: 44px;
 }
 
-li {
-    line-height: 1.5rem;
-    size: 1.5rem;
+.info {
+    margin: 10px;
+    text-align: left;
+    font-size: 24px;
+    color: darkslateblue;
 }
 
-a {
+.recipe-card {
+    display: inline-block;
+    border: 5px ridge darkred;
+    background-color: bisque;
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+    margin: 8px;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.links {
     color: darkred;
     font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    
 }
